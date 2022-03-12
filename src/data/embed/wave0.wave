@@ -1,0 +1,13 @@
+# OK distortion guitar
+#sine
+#fm 1 14.500
+#harmonics 0.800 0.000 0.300 0.200 0.100 
+#gain 8 0.25
+#normalize 0.4
+#mavg 40
+#...but i'm not crazy about it on the Tiny, it sounds kind of mistakey.
+
+# Simple church organ
+sine
+harmonics 0.200 0.800 0.100 0.520 0.050 0.000 0.000 0.100
+normalize 0.95
