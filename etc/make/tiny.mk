@@ -2,7 +2,7 @@
 # Build rules specific to the Tiny platform.
 # This is wildly different from Native platforms.
 
-PROJECT_NAME:=sudoku
+PROJECT_NAME:=Sudoku
 
 TINY_TMPDIR_SOLO:=mid/tiny/build-solo
 TINY_TMPDIR_HOSTED:=mid/tiny/build-hosted

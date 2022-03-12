@@ -55,14 +55,6 @@ void loop() {
 }
 
 void setup() {
-  
   bbd_init(&bbd,22050);
-  bbd.wavev[0]=wave0;
-  bbd.wavev[1]=wave1;
-  bbd.wavev[2]=wave2;
-  bbd.wavev[3]=wave3;
-  
   platform_init();
-  
-  //game_reset();
 }

@@ -27,11 +27,3 @@ struct render_image *data_image_by_id(uint8_t id) {
   }
   return 0;
 }
-
-uint32_t data_song_by_id(const uint8_t **dst,uint8_t id) {
-  switch (id) {
-    #define _(id,name) case id: *dst=name; return name##_len;
-    #undef _
-  }
-  return 0;
-}

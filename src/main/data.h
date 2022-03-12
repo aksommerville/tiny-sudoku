@@ -27,14 +27,7 @@ extern struct render_image tiles;
 extern struct render_image splash;
 extern struct render_image digits4x7;
 
-// Waves.
-extern const int16_t wave0[];
-extern const int16_t wave1[];
-extern const int16_t wave2[];
-extern const int16_t wave3[];
-
 uint32_t data_sound_by_id(const int16_t **dst,uint8_t id);
 struct render_image *data_image_by_id(uint8_t id);
-uint32_t data_song_by_id(const uint8_t **dst,uint8_t id);
 
 #endif
